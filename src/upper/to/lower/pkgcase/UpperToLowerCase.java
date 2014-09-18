@@ -14,6 +14,8 @@ public class UpperToLowerCase {
 
     public static void main(String[] args) {
         String Change;
+        
+       for(;;){
         Scanner ChangeToLowerCase = new Scanner(System.in);
         System.out.println("Paste Your Essay Here!: ");
         
@@ -28,5 +30,6 @@ public class UpperToLowerCase {
         clpbrd.setContents (stringSelection, null);
         
         System.out.println("Essay Saved To Clipbord");
+       }
     }
 }
